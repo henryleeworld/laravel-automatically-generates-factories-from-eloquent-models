@@ -28,7 +28,7 @@ final class UserFactory extends Factory
         return [
             'name' => fake()->name,
             'email' => fake()->safeEmail,
-            'password' => bcrypt(fake()->password),
+            'password' => fake()->password,
             'company_id' => Company::inRandomOrder()->first(),
         ];
     }

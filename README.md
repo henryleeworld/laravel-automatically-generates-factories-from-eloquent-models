@@ -1,4 +1,4 @@
-# Laravel 10 從 Eloquent 模型自動產生模型工廠
+# Laravel 11 從 Eloquent 模型自動產生模型工廠
 
 引入 thedoctor0 的 laravel-factory-generator 套件來擴增從 Eloquent 模型自動產生模型工廠，方便產生大量的資料庫記錄。
 
@@ -32,11 +32,11 @@ $ php artisan db:seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/okoHlpm.png)
+![](https://i.imgur.com/FO2Y62t.png)
 > 執行既有的 Eloquent 模型自動產生模型工廠假資料設定
 
-![](https://i.imgur.com/pE3RLns.png)
+![](https://i.imgur.com/kNJFVfI.png)
 > 建立 10 筆公司
 
-![](https://i.imgur.com/Ip7DUf2.png)
+![](https://i.imgur.com/74Ohp0c.png)
 > 建立 50 位使用者，並為每個用戶建立一個公司關聯

@@ -8,8 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Company extends Model
 {
+    /** @use HasFactory<\Database\Factories\CompanyFactory> */
     use HasFactory;
 
+    /**
+     * Get the users for the company.
+     */
     public function users(): HasMany
     {
         return $this->hasMany(User::class);
